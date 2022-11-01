@@ -1016,7 +1016,7 @@ struct MustacheEngine(String = string) if (isSomeString!(String))
                 auto key = parseKey(src, eTag, end);
                 if (stack.empty)
                     throw new MustacheException(to!string(key) ~ " is unopened");
-                auto memo = stack.back; stack.popBack(); stack.assumeSafeAppend();
+                auto memo = stack.back; stack.popBack(); cast(void)stack.assumeSafeAppend();
                 if (key != memo.key)
                     throw new MustacheException(to!string(key) ~ " is different from expected " ~ to!string(memo.key));
 
