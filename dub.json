@@ -1,6 +1,6 @@
 {
     "name":        "logicless",
-    "description": "logicless template engine for D.",
+    "description": "logicless template engine for D",
     "authors":     ["Masahiro Nakagawa", "Johan Forsberg"],
     "homepage":    "https://github.com/Imperatorn/logicless",
     "license":     "Boost Software License, Version 1.0",
