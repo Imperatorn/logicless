@@ -57,9 +57,9 @@ Working on CTFE.
 
 # Link
 
-* [{{ mustache }}](http://mustache.github.com/)
+* [{{ mustache }}](http://mustache.github.io/)
 
-* [mustache(5) -- Logic-less templates.](http://mustache.github.com/mustache.5.html)
+* [mustache(5) -- Logic-less templates.](http://mustache.github.io/mustache.5.html)
 
 man page
 
